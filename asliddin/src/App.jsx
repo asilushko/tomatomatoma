@@ -1,6 +1,28 @@
 
 import './App.css'
+import img2 from './assets/images/qizibola.png'
+import img3 from './assets/images/img.png'
+import img4 from './assets/images/logo.png'
+//header
 
+import img5 from './assets/images/png1.png'
+import img6 from './assets/images/png2.png'
+import img7 from './assets/images/png3.png'
+import img8 from './assets/images/png4.png'
+//section1
+
+import img9 from './assets/images/egg.png'
+import img10 from './assets/images/saladav.png'
+import img11 from './assets/images/toma.png'
+//section2
+
+import img12 from './assets/images/povar.png'
+import img13 from './assets/images/mask1.png'
+import img14 from './assets/images/mask2.png'
+import img15 from './assets/images/mask3.png'
+//footer
+
+import img16 from './assets/images/logosalad.png'
 function App() {
 
 
@@ -8,7 +30,7 @@ function App() {
     <>
  <header>
     <div className='koma'  >
-    <img src="/public/Group 20.png" alt="" />
+    <img src={img4} alt="" />
    <div className='loo'>
      <p>Home</p>
     <p>Menu</p>
@@ -17,7 +39,7 @@ function App() {
    </div>
  <div className='ooo' >
     <input type="search" />
-    <img src="/public/img.png" alt="" />
+    <img src={img3} alt="" />
  </div>
     <button>📞Contact</button>
    </div>
@@ -38,7 +60,7 @@ function App() {
 </div>
  </div>
 <div className='jj' >
-  <img src="/public/Intersect.png" alt="" />
+  <img src={img2} alt="" />
 </div>
   </div>
   </section>
@@ -56,19 +78,19 @@ function App() {
 
 <div className='dak' >
   <div className='wee' >
-<img src="/public/pngwing 4.png" alt="" />
+<img src={img5} alt="" />
 <h3>Main Dish</h3>
 <p>(86 dishes)</p>
 </div><div className='wee' >
-<img src="/public/pngwing 7.png" alt="" />
+<img src={img6} alt="" />
 <h3>Main Dish</h3>
 <p>(55 dishes)</p>
 </div><div className='wee' >
-<img src="/public/pngwing 3.png" alt="" />
+<img src={img7} alt="" />
 <h3>Main Dish</h3>
 <p>(99 dishes)</p>
 </div><div className='wee' >
-<img src="/public/pngwing 6.png" alt="" />
+<img src={img8} alt="" />
 <h3>Main Dish</h3>
 <p>(100 dishes)</p>
 </div>
@@ -85,7 +107,7 @@ function App() {
 <div className='youtubr'  >
     <div class="carwd">
     <div class="heart">❤</div>
-<img src="/public/Toma.png" alt="" />
+<img src={img10} alt="" />
     <h3>Fattoush salad</h3>
     <p>Description of the item</p>
     <div class="bottom">
@@ -98,7 +120,7 @@ function App() {
 
   <div class="carwd">
     <div class="heart">❤</div>
-<img src="/public/Vegetable salad.png" alt="" />
+<img src={img11} alt="" />
     <h3>Vegetable salad</h3>
     <p>Description of the item</p>
     <div class="bottom">
@@ -111,7 +133,7 @@ function App() {
 
   <div class="carwd">
     <div class="heart">❤</div>
-<img src="/public/Egg salad.png" alt="" />
+<img src={img9} alt="" />
     <h3>Egg vegi salad</h3>
     <p>Description of the item</p>
     <div class="bottom">
@@ -127,7 +149,7 @@ function App() {
 
     <div class="chef">
       <div class="bg-shape"></div>
-  <img src="/public/mom.png" alt="" />
+  <img src={img12} alt="" />
       <div class="label">Our Best Chef 😉</div>
     </div>
 
@@ -138,9 +160,9 @@ function App() {
 
       <div class="feedback">
         <div class="avatars">
-          <img src="/public/Mask group (2).png" alt="" />
-         <img src="/public/Mask group (3).png" alt="" />
-         <img src="/public/Mask group (4).png" alt="" />
+          <img src={img13} alt="" />
+         <img src={img14} alt="" />
+         <img src={img15} alt="" />
         </div>
         <div class="rating">
           Customer Feedback 
@@ -161,25 +183,25 @@ function App() {
 
     <div class="right">
       <div class="card">
-        <img  src="/public/fi-rr-salad.png" alt="" />
+        <img  src={img16} alt="" />
         <i class="fa-solid fa-bowl-food"></i>
         <h3>CATERING</h3>
         <p>Delight your guests with our flavors and presentation</p>
       </div>
       <div class="card">
-           <img  src="/public/fi-rr-salad.png" alt="" />
+           <img  src={img16} alt="" />
         <i class="fa-solid fa-clock"></i>
         <h3>FAST DELIVERY</h3>
         <p>We deliver your order promptly to your door</p>
       </div>
       <div class="card">
-           <img  src="/public/fi-rr-salad.png" alt="" />
+           <img  src={img16} alt="" />
         <i class="fa-solid fa-cart-shopping"></i>
         <h3>ONLINE ORDERING</h3>
         <p>Explore menu & order with ease using our Online Ordering</p>
       </div>
       <div class="card">
-           <img  src="/public/fi-rr-salad.png" alt="" />
+           <img  src={img16} alt="" />
         <i class="fa-solid fa-gift"></i>
         <h3>GIFT CARDS</h3>
         <p>Give the gift of exceptional dining with Foodi Gift Cards</p>
